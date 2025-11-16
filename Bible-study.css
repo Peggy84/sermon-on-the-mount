@@ -1,0 +1,126 @@
+/* ---------- Global layout ---------- */
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f7f5f2;
+  color: #222;
+}
+
+header {
+  background: #334155;
+  color: #f9fafb;
+  padding: 1.5rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+  background: #1e293b;
+  padding: 0.5rem 1rem;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-right: 0.8rem;
+  font-size: 0.9rem;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* ---------- Main content ---------- */
+main {
+  max-width: 800px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.25rem;
+  color: #1e293b;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 0.3rem;
+}
+
+p {
+  margin: 0.7rem 0;
+}
+
+.section-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 0.2rem;
+}
+
+/* ---------- Share-links block ---------- */
+.share-links {
+  background: #e2e8f0;
+  border-radius: 6px;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.9rem;
+  margin: 1rem 0 1.4rem;
+}
+
+.share-links strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #111827;
+}
+
+.share-links a {
+  display: inline-block;
+  margin: 0.1rem 0;
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+.share-links a:hover,
+.share-links a:focus {
+  text-decoration: underline;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Verse styling ---------- */
+.verse-ref {
+  font-weight: 600;
+  color: #475569;
+}
+
+/* ---------- ::target-text highlight ---------- */
+::target-text {
+  background: #c7f9cc;   /* soft green */
+  color: #065f46;        /* deep green text */
+  padding: 2px 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+/* Older browsers will just ignore ::target-text
+   and use their default highlight instead. */

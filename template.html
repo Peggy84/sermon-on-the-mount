@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bible-study.css">
+</head>
+<body>
+
+  <header>
+    <h1>{{HEADER_TITLE}}</h1>
+    <p>{{HEADER_SUBTITLE}}</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Overview</a>
+    <a href="matthew5.html">Matthew 5</a>
+    <a href="matthew6.html">Matthew 6</a>
+    <a href="matthew7.html">Matthew 7</a>
+  </nav>
+
+  <main>
+
+    <section class="share-links">
+      <strong>Share a direct highlight:</strong>
+
+      <!-- Example: update the href text and the visible label.
+           Replace {{FILE_NAME}} with the actual file, e.g. "matthew5.html". -->
+      <a href="{{FILE_NAME}}#:~:text={{URL_ENCODED_VERSE_1}}">
+        Link to {{VERSE_LABEL_1}}
+      </a><br>
+
+      <a href="{{FILE_NAME}}#:~:text={{URL_ENCODED_VERSE_2}}">
+        Link to {{VERSE_LABEL_2}}
+      </a>
+
+      <p class="note">
+        Copy one of these links into a text or email.
+        When someone opens it, the browser scrolls to and highlights that verse.
+      </p>
+    </section>
+
+    <section>
+      <h2>Text: {{PASSAGE_REFERENCE}}</h2>
+      <p class="section-note">
+        Paste your preferred Bible translation here. Make sure the verse wording
+        exactly matches the phrases used in the share links above.
+      </p>
+
+      <!-- Example verse block format:
+      <p>
+        <span class="verse-ref">5:3</span>
+        Blessed are the poor in spirit, for theirs is the kingdom of heaven.
+      </p>
+      -->
+
+      {{PASTE_VERSES_HERE}}
+    </section>
+
+    <section>
+      <h2>Observation &amp; Reflection</h2>
+      <p class="subheading">(Adapt these questions for your group or personal study.)</p>
+
+      <p>
+        <strong>1. What stands out in this passage?</strong><br>
+        Write down repeated words, contrasts, or key images.
+      </p>
+
+      <p>
+        <strong>2. What does this teach about the character of God and the kingdom?</strong><br>
+        Note specific phrases that reveal his heart, priorities, and promises.
+      </p>
+
+      <p>
+        <strong>3. Where does this passage gently confront or encourage you today?</strong><br>
+        Turn a single verse into a personal prayer.
+      </p>
+    </section>
+
+  </main>
+
+</body>
+</html>
